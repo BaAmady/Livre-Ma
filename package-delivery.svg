@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="300" height="200" fill="#F9F6EF" opacity="0.5"/>
+    
+    <!-- Package -->
+    <g transform="translate(100, 40)">
+        <!-- Box -->
+        <path d="M20 40 L80 40 L100 60 L100 120 L20 120 L0 100 L0 40 Z" fill="#006240"/>
+        <!-- Box Top -->
+        <path d="M20 40 L80 40 L100 60 L40 60 Z" fill="#F7C400"/>
+        <!-- Box Side -->
+        <path d="M0 40 L20 40 L40 60 L40 120 L20 120 L0 100 Z" fill="#004830"/>
+        
+        <!-- Label -->
+        <rect x="30" y="70" width="40" height="20" fill="#FFF"/>
+        <line x1="35" y1="75" x2="65" y2="75" stroke="#C1272D" stroke-width="2"/>
+        <line x1="35" y1="80" x2="55" y2="80" stroke="#C1272D" stroke-width="2"/>
+        <line x1="35" y1="85" x2="60" y2="85" stroke="#C1272D" stroke-width="2"/>
+        
+        <!-- Tape -->
+        <path d="M35 40 L65 40 L85 60 L55 60 Z" fill="#C1272D"/>
+    </g>
+    
+    <!-- Location Pin -->
+    <g transform="translate(200, 100)">
+        <path d="M0 0 Q15 -5 30 0 Q45 5 60 0 L60 20 L0 20 Z" fill="#C1272D"/>
+        <circle cx="30" cy="10" r="5" fill="#F7C400"/>
+    </g>
+</svg> 
