@@ -403,4 +403,60 @@ footer {
     .service-card {
         padding: 1.5rem;
     }
+}
+
+/* About Section */
+.about-section {
+    padding: 5rem 5%;
+    background-color: var(--white);
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-image {
+    flex: 0.4;
+}
+
+.about-image img {
+    width: 20%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
+
+.about-text {
+    flex: 1.6;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 30%;
+        max-width: 90px;
+    }
 } 
