@@ -721,26 +721,83 @@ footer {
     gap: 2rem;
 }
 
+/* Social Media Icons */
 .social-icon {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: var(--primary-green);
-    color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
     transition: all 0.3s ease;
+    color: var(--white);
 }
 
-.social-icon:hover {
-    transform: translateY(-5px);
-    background-color: var(--text-dark);
+.social-icon.facebook {
+    background-color: #1877f2;
 }
 
 .social-icon.instagram {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.social-icon.linkedin {
+    background-color: #0077b5;
+}
+
+.social-icon:hover {
+    transform: translateY(-5px);
+    opacity: 0.9;
+}
+
+/* Footer Social Links */
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--white);
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.social-link i {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 0.9rem;
+}
+
+.social-link:hover {
+    opacity: 0.8;
+}
+
+.social-links .fa-facebook-f {
+    background-color: #1877f2;
+}
+
+.social-links .fa-instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.social-links .fa-linkedin-in {
+    background-color: #0077b5;
+}
+
+/* Responsive adjustments for social icons */
+@media (max-width: 768px) {
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .social-link {
+        justify-content: center;
+    }
 }
 
 /* Responsive Design Updates */
