@@ -257,32 +257,33 @@ footer {
 }
 
 /* Language Switcher */
-.language-switcher {
+.language-switcher-nav {
     display: flex;
-    gap: 10px;
-    margin-top: 20px;
-    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.25rem;
 }
 
 .lang-btn {
     background: transparent;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    padding: 5px 15px;
+    color: var(--text-dark);
+    border: 1px solid var(--primary-green);
+    padding: 0.35rem 0.75rem;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
     transition: all 0.3s ease;
-    font-size: 14px;
 }
 
 .lang-btn:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--primary-green);
+    color: var(--white);
 }
 
 .lang-btn.active {
-    background: #ffffff;
-    color: #006837;
-    border-color: #ffffff;
+    background: var(--primary-green);
+    color: var(--white);
 }
 
 /* Responsive adjustments */
@@ -329,6 +330,15 @@ footer {
     .footer-content {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+
+    .language-switcher-nav {
+        gap: 0.25rem;
+    }
+
+    .lang-btn {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.85rem;
     }
 }
 
@@ -899,23 +909,6 @@ footer {
 
 html {
     scroll-behavior: smooth;
-}
-
-/* Navigation CTA */
-.nav-cta {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.language-switcher-nav {
-    display: flex;
-    gap: 0.25rem;
-}
-
-.nav-order-btn {
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
 }
 
 /* Hero Badge */
