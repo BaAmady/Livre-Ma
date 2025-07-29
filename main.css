@@ -137,6 +137,7 @@ select:focus {
 
 .title {
     color: #006240;
+    scroll-margin-top: 100px;
 }
 
 #emailForm {
