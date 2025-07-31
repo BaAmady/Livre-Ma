@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <!-- HEADER  -->
@@ -20,17 +21,17 @@
             </div>
             <nav>
                 <ul>
-                    <li><a class="link" href="#">Home</a></li>
-                    <li><a class="link" href="#about">About Us</a></li>
-                    <li><a class="link" href="#services">Our Services</a></li>
+                    <li><a data-i18n="home_nav" class="link" href="#">Accueil</a></li>
+                    <li><a data-i18n="about_nav" class="link" href="#about">Qui Sommes-nous</a></li>
+                    <li><a data-i18n="service_nav" class="link" href="#services">Nos Services</a></li>
                 </ul>
             </nav>
             <div class="language-signup">
                 <button class="language navb">
                     <select name="" id="">
-                        <option value="">FRE</option>
-                        <option value="">WOL</option>
-                        <option value="">ENG</option>
+                        <option value="FRE">FRE</option>
+                        <option value="WOL">WOL</option>
+                        <option value="ENG">ENG</option>
                     </select>
                     <img src="assets/language_globe.svg" alt="globe">
                 </button>
@@ -46,11 +47,11 @@
     <section class="hero">
         <div class="badge">
             <img src="assets/star.svg" alt="star">
-            <p>Senegal's Premier Delivery Service</p>
+            <p data-i18n="motto">Senegal's Premier Delivery Service</p>
             <img src="assets/star.svg" alt="star">
         </div>
-        <h1 class="title">What you need, when you need it!</h1>
-        <p id="mottoMessage">Order food, groceries, parcels, and more—Livré Ma delivers it all with speed and heart, anywhere in Senegal.</p>
+        <h1 data-i18n="title" class="title">Ce dont vous avez besoin, quand vous en avez besoin !</h1>
+        <p data-i18n="mottoMessage" id="mottoMessage">Order food, groceries, parcels, and more—Livré Ma delivers it all with speed and heart, anywhere in Senegal.</p>
         <form action="" id="emailForm">
             <input type="email" name="email" id="email" placeholder="Your email (i.e johndoe@testmail.com)...">
             <button id="signUp">

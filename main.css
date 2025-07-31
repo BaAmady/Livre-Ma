@@ -254,3 +254,57 @@ a {
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .serviceSection {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  #emailForm {
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+  }
+
+  #email {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #signUp {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .galleryImage {
+    width: 90%;
+    height: auto;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .navbar nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .language-signup {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
