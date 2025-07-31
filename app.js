@@ -20,7 +20,7 @@ const translations = {
         about_nav: "Ñun nooy kaan",
         service_nav: "Sunu Ligeey",
         title: "Li ngeen di soxla, mooy seen mbékté!",
-        motto: "Senegal's Premier Delivery Service",
+        motto: "Livraison bu jitu ci Senegaal",
         mottoMessage: "Amaal sa lekk, say ndugu ak yonné bagage — LivréMa daay ligeey ci lu gaw lu woor fépp ci Senegaal."
     }
 }
