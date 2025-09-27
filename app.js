@@ -37,11 +37,11 @@ const translations = {
     service_nav: "Sunu Ligeey",
     title: "Li ngeen di soxla, mooy seen mbékté!",
     motto: "Livraison bu jitu ci Senegaal",
-    mottoMessage: "Amaal sa lekk, say ndugu ak yonné bagage — LivréMa daay ligeey ci lu gaw lu woor fépp ci Senegaal.",
+    mottoMessage: "Comandél sa lekk, jend sa ndugu ak yonné bagage — LivréMa daay ligeey ci lu gaw lu woor fépp ci Senegaal.",
     joinWait: "Bindaat bi",
     joinWaitMessage: "Genn 128,000+ ñi ngi ci bindaat bi",
     story: "Sunuy Leeral",
-    about1: "Livré Ma dafay jëfandikoo jëf yi mujj te gën a ëpp dëgg, yu doon ak cosaanu Senegaal.",
+    about1: "Livré Ma daay liggéey ngir joxe ay serwiis yu bees yu méngoo diamono ngir askanu Senegaal.",
     about2: "Sunuy xalaat mooy yokk seen jàmm ak li ñuy soxla, nu yónnee lu mëna gën a baax ca kaw këma.",
     about3: "Nu gëm ne teknoloji ak jëf yu dëppoo ci ñaari wet mën na jàppale ñi ci sañ-sañ, bu ëpp solo.",
     service: "Sunu Ligeey"
